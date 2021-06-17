@@ -41,7 +41,7 @@ body {
 
 .card {
   position: relative;
-  display: block;
+  display: ;
   border: var(--theme-main-color) solid 0.2rem;
   border-radius: 0.5rem;
   min-height: 85vh;
@@ -120,12 +120,16 @@ body {
 @media screen and (min-width: 768px) {
   .card {
     display: flex;
-    flex-direction: row;
   }
-  .card__top,
+  /* image on the left */
+  .card__top {
+    border: dashed, black, 30px;
+    z-index: 200;
+  }
   .card__bottom {
-    flex: 1;
+    background-color: blue;
   }
+  /* title and text on the right */
 
   /* .card__title,
   .card__text {
