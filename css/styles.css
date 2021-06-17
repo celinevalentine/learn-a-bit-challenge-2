@@ -18,16 +18,9 @@
 body {
   min-height: 100vh;
 }
-.container {
-  background-color: var(--bg-second-color);
-  display: flex;
-}
 .hero {
   background-color: var(--bg-second-color);
   min-height: 100vh;
-}
-.hero_container {
-  display: flex;
 }
 .hero__title {
   color: var(--theme-main-color);
@@ -41,13 +34,14 @@ body {
 
 .card {
   position: relative;
-  display: ;
+  display: flex;
+  flex-direction: column;
   border: var(--theme-main-color) solid 0.2rem;
   border-radius: 0.5rem;
   min-height: 85vh;
-  min-width: 550px;
+  min-width: 50%;
   margin: 2rem 2rem;
-  z-index: 1;
+  overflow: hidden;
 }
 .card__top,
 .card__bottom {
@@ -111,7 +105,6 @@ body {
   border-radius: 0.5rem;
   padding: 0.8rem 3rem;
   margin-bottom: 4rem;
-  display: block;
 }
 .button:hover {
   background-color: var(--theme-third-color);
@@ -120,6 +113,7 @@ body {
 @media screen and (min-width: 768px) {
   .card {
     display: flex;
+    flex-direction: row;
   }
   /* image on the left */
   /* .card__top {
