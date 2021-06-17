@@ -122,13 +122,13 @@ body {
     display: flex;
   }
   /* image on the left */
-  .card__top {
+  /* .card__top {
     border: dashed, black, 30px;
     z-index: 200;
   }
   .card__bottom {
     background-color: blue;
-  }
+  } */
   /* title and text on the right */
 
   /* .card__title,
