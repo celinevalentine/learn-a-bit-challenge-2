@@ -1,3 +1,5 @@
 ![learnabit-ch02-mobile](https://user-images.githubusercontent.com/52294389/122355227-987cc800-cf06-11eb-8c66-84b14051e7ca.png)
 ![learnabit-ch02-desktop](https://user-images.githubusercontent.com/52294389/122355240-99adf500-cf06-11eb-8028-ac4160f3cb48.png)
-## learn-a-bit-challenge-2
+## What Had I learned From Learn-A-Bit Challenge #2
+
+This is the second challenge that I participated for the learn-a-bit challenge series. After I improved my understanding in semantic, mobile first approach and media query, it took me less time to figure things out for this challenge. The main struggle I had was not able to make the desktop media query display the two main sections side by side vs. top and bottom. Thanks to the support from the Mintbean community and the mentors, I received good feedback about things I should correct and pay more attention too. Although some mistakes were the same I made from the first challenge, I have learned that I must be more careful about syntax errors, declaration orders and adding unnecessary 'divs' to position items. I should utilize Flexbox more than manually positioning items. Overall, I believe if I continue learning fundamentals of web development through this series, I will become confident about HTML, CSS and Javascript. I look forward to the next challenge. 
